@@ -28,9 +28,9 @@ SECRET_KEY = 'django-insecure-@@@oflk*0q0+g(v(9l6u)*qzoub2s1h1^wj^p83c8zb6*+jh%=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://docai-project.onrender.com']
 
-
+ALLOWED_HOSTS = ['docai-project.onrender.com']
 # Application definition
 
 INSTALLED_APPS = [
